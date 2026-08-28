@@ -29,7 +29,7 @@ const ProtectedLayout = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/moderndev">
       <Routes>
         <Route path="/" element={<Navigate to="/signin" replace />} />
         <Route path="/signin" element={<Signin />} />
